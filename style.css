@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700,700i');
+@charset "UTF-8";
+/*CSS Document*/
+
+Body  {
+	/*for the h1 bangle*/
+  background-color: #FFA07A;
+  font-family: "Lucida sans unicode",  "Lucida Grande", sans-serif;
+  Color: #8c5f26;
+  font-size: 26px;
+  max-width:1000px;
+	 margin: 0;
+	  border: 10px purple ridge;
+      
+
+}
+
+
+h1 {
+	color: #FFEFD5;
+	background-color: #000000;
+	font-family: "Times New Roman", Times, serif;
+	text-align:center;
+}
+
+
+#navsite p {
+	display:none;
+}
+#navsite ul {
+	width: 100%;
+	float: left;
+	padding:right;
+	margin-left: 0;
+	border-bottom: 1px solid #778;
+	font: bold 12px Verdana, sans-serif;
+}
+
+#navsite ul li {
+	list-style: none;
+	margin: 0;
+	float:left;
+}
+
+#navsite ul li a {
+	padding: 12px 0.5em;
+	margin-left: 3px;
+	border: 1px solid #778;
+	border-bottom: none;
+	background-color:#FF6347;
+	text-decoration: none;
+	background-image: url(title-glass.png);
+	background-position: 50%;
+	background-repeat: repeat-x;
+	display: block;
+	width: 7em;
+}
+
+#navsite ul li a:link {
+	color: white;
+}
+
+#navsite ul li a:visited {
+	color:#FFFFFF;
+}
+
+#navsite ul li a:link:hover, #navsite ul li a:visited:hover {
+	color: #000;
+	background-color: #FFF5EE;
+	border-color: #227;
+}
+
+#navsite ul li a#current {
+	background-color:white;
+	border-bottom: 1px solid white;
+	color:#F0FFFF ;
+	margin-bottom: -1px;
+}
+
+#navsite ul li a#current:hover {
+	background-image: url(title-glass.png);
+	background-position: 50%;
+	background-repeat: repeat-x;
+}
+
+.clearfix: after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*for IE6 */
+*html.clearfix {
+	height: 1%;
+}
+
+/*for IE7*/
+*:first-child+html.clearfix {
+	min-height: 1px;
+}
+
+@charset "UTF-8";
+/*CSS Document*/
+
+/*code for images*/
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h4{
+	font-size:20px;
+	font-family: "Times New Roman", Times, serif;
+	color:black;
+	margin-top:-10px;
+	margin-left:40px;
+	}
+	
+	.column1{
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin-right:100px;
+  margin-top: -400px;
+}
